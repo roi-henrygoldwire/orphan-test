@@ -1,4 +1,4 @@
-let provider = { header:
+{ header:
    { createdBy:
       '/usr/local/lib/python3.6/dist-packages/alyvant_sales_rep_app/sales_rep_app_object_manager.py',
      createEpoch: 1574197281,
