@@ -1,0 +1,77 @@
+graph {
+    graph [nodesep=0.5,
+        ranksep=0.5,
+        pad="0.2,0.2",
+        margin="0.0",
+        cencentrate=true,
+        splines="spline",
+        rankdir=LR
+    ];
+    node [
+        label="\N",
+        fontsize=14,
+        margin="0.07,0.05",
+        penwidth=1.0,
+        shape=Mrecord
+    ];
+    edge [
+        dir=both,
+        fontsize=12,
+        arrowsize=0.9,
+        penwidth=1.0,
+        labelangle=32,
+        labeldistance=1.8
+    ];
+    
+
+    
+
+  SalesRep [label=<<TABLE
+      BORDER="0"
+      CELLPADDING="0"
+      CELLSPACING="0.5"
+      WIDTH="134"
+      ALIGN="CENTER"
+      >
+      <TR>
+        <TD ALIGN="CENTER" VALIGN="BOTTOM" WIDTH="134"><FONT POINT-SIZE="14" FACE="Helvetica bold"><B>SalesRep</B></FONT></TD>
+      </TR>
+    </TABLE>|
+    <TABLE
+      BORDER="0"
+      ALIGN="LEFT"
+      CELLPADDING="0"
+      CELLSPACING="4"
+      WIDTH="134">
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">*salesRepId</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;string</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">header</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;Header?</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">call_log_chart</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;CallLogBarChart?</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">doctorPriority</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;string[]</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">relationship_health</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;double?</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">priority_distribution</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;PriorityDistribution?</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">prescribers</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;PrescribersBarChart?</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">prescription_growth</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;PrescriptionGrowth?</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">first_name</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;string?</FONT></TD>
+      </TR>
+      <TR>
+        <TD ALIGN="LEFT"><FONT POINT-SIZE="12">last_name</FONT><FONT FACE="Arial Italic" POINT-SIZE="10" COLOR="grey60">&nbsp;string?</FONT></TD>
+      </TR>
+    </TABLE>>];
+}

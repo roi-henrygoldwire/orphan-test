@@ -1,0 +1,11 @@
+[SalesRep] { }
+*salesRepId { label: "string" }
+header { label: "Header?" }
+call_log_chart { label: "CallLogBarChart?" }
+doctorPriority { label: "string[]" }
+relationship_health { label: "double?" }
+priority_distribution { label: "PriorityDistribution?" }
+prescribers  { label: "PrescribersBarChart?" }
+prescription_growth { label: "PrescriptionGrowth?" }
+first_name { label: "string?" }
+last_name { label: "string?" }

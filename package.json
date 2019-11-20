@@ -1,0 +1,23 @@
+{
+  "name": "orphan-test",
+  "version": "0.0.1",
+  "description": "learn abotu realm orphans",
+  "main": "make_orphans.ts",
+  "scripts": {
+    "start": "ts-node make_orphans.ts",
+    "dev": "nodemon make_orphans.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "realm": "^3.4.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.136",
+    "nodemon": "^1.19.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}

@@ -1,0 +1,26 @@
+User : All our customers {
+  id
+  email varchar(128) : User's email address
+  name : User's name
+}
+
+Post {
+  id
+  blog_id -> Blog.id
+  category_id -> Category.id
+  title : title of the blog post
+  text : plain text of the blog post
+}
+
+Blog {
+  id
+  user_id -> User.id
+  name
+}
+
+Category {
+  id
+  name
+  parent_category_id ..> Category.id
+  blog_id -> Blog.id
+}
